@@ -45,6 +45,9 @@ class ArticlesController < ApplicationController
 
   def search
     @articles = Article.where("title LIKE ?", "%" + params[:q] + "%")
+    if @articles.empty?
+      @articles = Article.where("description LIKE ?", "%" + params[:q] + "%")
+    end
   end
 
   private 
