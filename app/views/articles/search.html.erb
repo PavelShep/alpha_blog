@@ -1,7 +1,9 @@
 <div id="page-content">
 
-  <h1 class="text-center mt-4">Listing all articles</h1>
+  <h1 class="text-center mt-4">Result of the search: <%= pluralize(@articles.count, "article") %></h1>  
 
-  <%= render "article" %>
+  <% if !@articles.empty? %> 
+    <%= render "article" %>
+  <% end %>
 
 </div>
