@@ -1,6 +1,6 @@
 <div id="page-content">
 
-  <h1 class="text-center mt-4">Create a new category</h1>
+  <h1 class="text-center mt-4">Edit category name</h1>
 
   <div class="container">
     <div class="row justify-content-center">
@@ -8,7 +8,7 @@
         <%= render "shared/errors", obj: @category %>
           <%= render "form" %>
           <div class="d-flex justify-content-center">
-            <%= link_to '[ Cancel and return to categories listing ]', categories_path %>
+            <%= link_to '[ Cancel and return to category ]', category_path(@category) %>
           </div>
       </div>
     </div>
