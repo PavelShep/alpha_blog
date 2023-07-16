@@ -41,6 +41,14 @@ body {
   background-size: cover;
 }
 
+#about-container{
+  margin-top: 25px;
+  background-image: asset-url('wallpaper1.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* Pagination styles */
 .flickr_pagination {
   text-align: center;
