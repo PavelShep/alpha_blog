@@ -1,5 +1,7 @@
 # Alpha Blog
 
+![alpha_blog](https://raw.githubusercontent.com/PavelShep/PavelShep/main/uploads/alpha_blog.png)
+
 Alpha Blog is a web application built on Ruby on Rails 7, designed to provide a platform for users to create, read, update, and delete blog articles. It incorporates essential features such as user authentication, article management, and user-friendly interfaces.
 
 This README file serves as a guide to set up and run the Alpha Blog project locally. It includes information about prerequisites, installation steps, configuration, and usage.
@@ -39,8 +41,8 @@ Follow the steps below to install and set up the Alpha Blog project:
 5. Create the database and run migrations:
 
    ```
-   rails db:create
    rails db:migrate
+   rails db:seed
    ```
 
 ## Configuration
@@ -72,10 +74,6 @@ To start the Alpha Blog application, follow these steps:
 Contributions to the Alpha Blog project are welcome. If you find any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue on the project's repository.
 
 When contributing, please adhere to the existing coding style and ensure your changes align with the project's purpose.
-
-## License
-
-The Alpha Blog project is open-source and released under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Acknowledgments
 
