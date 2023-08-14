@@ -13,6 +13,7 @@ To run Alpha Blog on your local machine, ensure you have the following prerequis
 - Ruby (version 3.2.2)
 - Ruby on Rails (version 7.0.5)
 - Sqlite3 database
+- Bootsrap
 
 ## Installation
 
